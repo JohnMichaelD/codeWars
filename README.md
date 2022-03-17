@@ -1,2 +1,2 @@
 # codeWars
-Repo for daily codewars challenges
+Repo for daily JS codewars challenges
