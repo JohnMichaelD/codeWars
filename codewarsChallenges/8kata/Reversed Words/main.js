@@ -17,3 +17,9 @@ function reverseWords(str){
     let newStr = reversedArray.join(' ');
     return newStr; 
   }
+
+  //but this also works:
+
+  function reverseWords(str){
+    return str.split(' ').reverse().join(' ');
+  }
