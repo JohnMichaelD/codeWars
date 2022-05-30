@@ -28,3 +28,10 @@ function twoOldestAges(ages){
     
     return agesOldest;
   }
+
+//this is another users submission
+/* this is more condensed, and utilizes the slice method. Because it returns a new array, you just need to remove the last two of the ages array and return it*/
+  // return the two oldest/oldest ages within the array of ages passed in.
+function twoOldestAges(ages){
+    return ages.sort(function(a,b){return a-b;}).slice(-2);
+  }
