@@ -23,3 +23,18 @@ function bmi(weight, height) {
     }
    
   }
+//another users answer. couldn't get it to work, but was missing 'true' in switch case
+  function bmi(weight, height) {
+    var formula = (weight / Math.pow(height, 2));
+    switch (true) {
+      case formula <=18.5:
+      return 'Underweight';
+      case formula <=25.0:
+      return 'Normal';
+      case formula <=30:
+      return 'Overweight';
+      default:
+      return 'Obese';
+      
+    }
+  }
