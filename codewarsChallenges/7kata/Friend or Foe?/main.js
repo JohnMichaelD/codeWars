@@ -24,6 +24,7 @@ function friend(friends){
     return friendsOnly;
   }
 
+//same function but using .filter
 function friend(friends){
   return friends.filter(name => name.length === 4)
 }
