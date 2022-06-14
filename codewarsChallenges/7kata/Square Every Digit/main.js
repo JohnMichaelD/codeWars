@@ -15,3 +15,10 @@ function squareDigits(num){
     
     return Number(squaredStr);
   }
+
+  // their solution, +num parses string into a number, .toString parses it into a string, .split splits the string at each number, .map goes through each number and multiplies it by itself, join then re joins the string together, and returns as a number with +num? 
+  function squareDigits(num){
+    return +num.toString().split('').map(i => i*i).join('');
+  }
+
+  //
