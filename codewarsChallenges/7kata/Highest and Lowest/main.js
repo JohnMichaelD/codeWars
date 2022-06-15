@@ -30,3 +30,10 @@ Notes
         return `${max} ${min}`;
         
       }
+
+    //way better way to do it.
+
+    function highAndLow(numbers){
+        numbers = numbers.split(' ');
+        return `${Math.max(...numbers)} ${Math.min(...numbers)}`;
+      }
